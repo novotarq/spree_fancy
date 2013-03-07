@@ -96,14 +96,12 @@ body {
   }
   .product-image {
     a {
-      @include border-radius(165px);
       border-width: 2px;
       width: 160px;
       height: 160px;
     }
 
     img {
-      @include border-radius(45px);
       width: 160px;
       height: 160px;
     }
@@ -133,13 +131,10 @@ ul#products li {
     padding: 0;
 
     a {
-      border-color: lighten($c_blue, 30);
-      border-width: 2px;
       padding: 30px 22px 30px 20px;
       float: none;
 
       img {
-        @include border-radius(0);
         width: 150px;
         height: 150px;
       }
